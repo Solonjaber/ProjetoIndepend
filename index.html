@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Aplicativo de OKRs</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="imagem/LOGOMARCA PGE HORIZONTAL CORES.jpg" alt="logo" />
+          </span>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="text" placeholder="Pesquisar" />
+          </li>
+          <ul class="menu-links">
+            <li>
+              <a class="nav-link" href="#dashboard">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#matriz-gut">
+                <i class="bx bxs-spreadsheet icon"></i>
+                <span class="text nav-text">Matriz GUT</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#okrs-labpdi">
+                <i class="bx bxs-file icon"></i>
+                <span class="text nav-text">OKRs - LabPDI</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#aplicativos">
+                <i class="bx bx-grid-alt icon"></i>
+                <span class="text nav-text">Aplicativos</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-content"></div>
+        <li class="">
+          <a href="#logout">
+            <i class="bx bx-log-out icon"></i>
+            <span class="text nav-text">Logout</span>
+          </a>
+        </li>
+
+        <li class="mode">
+          <div class="moon-sun">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Dark Mode</span>
+
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </div>
+    </nav>
+
+    <main id="app" class="pages">
+      <!-- Conteúdo da página Dashboard -->
+      <div id="dashboard" class="page-content" style="display: none;">
+        <h2 class="text">Dashboard</h2>
+        <p class="text2">Este é o conteúdo da página Dashboard. Aqui você pode visualizar informações importantes sobre o seu sistema.</p>
+      </div>
+  
+      <!-- Conteúdo da página Matriz GUT -->
+      <div id="matriz-gut" class="page-content" style="display: none;">
+        <h2 class="text">Matriz GUT</h2>
+        <p class="text2">Este é o conteúdo da página Matriz GUT. Aqui você pode gerenciar e analisar os problemas de acordo com sua gravidade, urgência e tendências.</p>
+      </div>
+  
+      <!-- Conteúdo da página OKRs - LabPDI -->
+      <div id="okrs-labpdi" class="page-content" style="display: none;">
+        <h2 class="text">OKRs - LabPDI</h2>
+        <p class="text2">Este é o conteúdo da página OKRs - LabPDI. Aqui você pode definir e acompanhar seus Objetivos e Resultados-chave relacionados ao Laboratório de Pesquisa e Desenvolvimento em Informática.</p>
+      </div>
+  
+      <!-- Conteúdo da página Aplicativos -->
+      <div id="aplicativos" class="page-content" style="display: none;">
+        <h2 class="text">Aplicativos</h2>
+        <p class="text2">Este é o conteúdo da página Aplicativos. Aqui você pode acessar e gerenciar os aplicativos disponíveis em sua plataforma.</p>
+      </div>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
