@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_matrizgut.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"/>
+    <title>Matriz Gut</title>
+</head>
+<body>
+    <!--Menu Vertical-->
+    <nav class="sidebar close">
+        <header>
+          <div class="image-text">
+            <span class="image">
+              <img src="imagem/LOGOMARCA PGE HORIZONTAL CORES.jpg" alt="logo" />
+            </span>
+          </div>
+    
+          <i class="bx bx-chevron-right toggle"></i>
+        </header>
+        <div class="menu-bar">
+          <div class="menu">
+            <li class="search-box">
+              <i class="bx bx-search icon"></i>
+              <input type="text" placeholder="Pesquisar" />
+            </li>
+
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bx-bar-chart-alt-2 icon"></i>
+                  <span class="text nav-text">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="matrizgut.html">
+                  <i class="bx bxs-spreadsheet icon"></i>
+                  <span class="text nav-text">Matriz GUT</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="#">
+                  <i class="bx bxs-file icon"></i>
+                  <span class="text nav-text">OKRs - LabPDI</span>
+                </a>
+              </li>
+              <li class="nav-link">
+                <a href="aplicativos.html">
+                  <i class="bx bx-grid-alt icon"></i>
+                  <span class="text nav-text">Aplicativos</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="bottom-content"></div>
+          <li class="">
+            <a href="#">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+    
+          <li class="mode">
+            <div class="moon-sun">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark Mode</span>
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </nav>
+
+    <!--Cabecalho-->
+      <div class="conteudo">
+        <div class="item1">
+          <div class="definicao">
+            <h1>MATRIZ GUT</h1><br>
+            <p>A Matriz GUT, é uma técnica utilizada em gerenciamento de projetos como modo de identificar e priorizar tarefas e/ou problemas. A classificação de prioridade é realizada de acordo com a Gravidade, Urgência e Tendência (GUT) da situação em questão.</p>
+            <button>Iniciar</button>
+          </div>
+        </div>
+        <div class="item2">
+          <img src="imagem/undraw_all_the_data_re_hh4w.svg">
+        </div>
+      </div>  
+
+    <!--Instrucao-->
+    <div class="instrucoes">
+      <h2>INSTRUÇÕES</h2>
+      <h5>Preencha as informações da tabela para cada tarefa. Quanto maior o valor GUT, mais prioritária é aquela tarefa.
+      </h5>
+      <div class="container">
+        <div class="card">
+          <div class="texto">
+            <h3> GRAVIDADE</h3><br>
+            <p>Leva em conta quanto de impacto negativo o problema pode causar se não for resolvido.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="texto">
+            <h3>URGÊNCIA</h3><br>
+            <p>Considera o prazo para resolver o problema. Não se esqueça de levar em conta o tempo a ser despendido na tarefa e que, quanto mais tempo você tem para fazê-la, menos urgente ela é.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="texto">
+            <h3>TENDÊNCIA (a piorar)</h3><br>
+            <p>É a medida do quanto o problema está predisposto a piorar com o tempo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Matriz -->
+    <div class="matriz">
+      <h2>MATRIZ</h2>
+      <div class="formularios">
+        <div class="responsavel">
+          <form>
+            <label for="fname">Responsável:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Digite o nome do responsável"><br>
+          </form>
+        </div>
+        <div class="priorizacao">
+          <form>
+            <label for="fname">Data da priorização:</label><br>
+            <input type="date" id="data" name="data"><br>
+          </form>
+        </div>
+      </div>
+      <div class="tabelagut">
+        <table>
+          <tr>
+            <th>Iniciativa</th>
+            <th>Situação</th>
+            <th>Solicitante/Área</th>
+            <th>Data de início</th>
+            <th>Data de término</th>
+            <th>Gravidade</th>
+            <th>Urgência</th>
+            <th>Tendência</th>
+            <th>GUT</th>
+          </tr>
+          <tr>
+            <td>Iniciativa 1</td>
+            <td>Fazendo</td>
+            <td>LabPDI</td>
+            <td>22/04/2024</td>
+            <td>29/04/2024</td>
+            <td>5- Extremamente grave</td>
+            <td>5- O quanto antes</td>
+            <td>5- Piora Rapidamente</td>
+            <td>/////////////////////</td>
+          </tr>
+          <tr>
+            <td>Iniciativa 1</td>
+            <td>A fazer</td>
+            <td>LabPDI</td>
+            <td>22/04/2024</td>
+            <td>29/04/2024</td>
+            <td>5- Extremamente grave</td>
+            <td>5- O quanto antes</td>
+            <td>5- Piora Rapidamente</td>
+            <td>/////////////////////</td>
+          </tr>
+          <tr>
+            <td>Iniciativa 1</td>
+            <td>A fazer</td>
+            <td>LabPDI</td>
+            <td>22/04/2024</td>
+            <td>29/04/2024</td>
+            <td>5- Extremamente grave</td>
+            <td>5- O quanto antes</td>
+            <td>5- Piora Rapidamente</td>
+            <td>/////////////////////</td>
+          </tr>
+          <tr>
+            <td>Iniciativa 1</td>
+            <td>A fazer</td>
+            <td>LabPDI</td>
+            <td>22/04/2024</td>
+            <td>29/04/2024</td>
+            <td>5- Extremamente grave</td>
+            <td>5- O quanto antes</td>
+            <td>5- Piora Rapidamente</td>
+            <td>/////////////////////</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

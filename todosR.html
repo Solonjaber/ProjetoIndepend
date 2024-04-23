@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_todosR.css"/>
+    <link 
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"/>
+
+    <title>Relatórios</title>
+</head>
+<body>
+<!--Menu Vertical-->
+<nav class="sidebar close">
+  <header>
+    <div class="image-text">
+      <span class="image">
+      <img src="imagem/LOGOMARCA PGE HORIZONTAL CORES.jpg" alt="logo" />
+      </span>
+    </div>
+    <i class="bx bx-chevron-right toggle"></i>
+  </header>
+    <div class="menu-bar">
+      <div class="menu">
+        <li class="search-box">
+        <i class="bx bx-search icon"></i>
+        <input type="text" placeholder="Pesquisar" />
+        </li>
+
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="#">
+            <i class="bx bx-bar-chart-alt-2 icon"></i>
+            <span class="text nav-text">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="matrizgut.html">
+            <i class="bx bxs-spreadsheet icon"></i>
+            <span class="text nav-text">Matriz GUT</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="#">
+            <i class="bx bxs-file icon"></i>
+            <span class="text nav-text">OKRs - LabPDI</span>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="aplicativos.html">
+            <i class="bx bx-grid-alt icon"></i>
+            <span class="text nav-text">Aplicativos</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom-content"></div>
+        <li class="">
+          <a href="#">
+          <i class="bx bx-log-out icon"></i>
+          <span class="text nav-text">Logout</span>
+          </a>
+        </li>
+        <li class="mode">
+          <div class="moon-sun">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Dark Mode</span>
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+    </div>
+</nav>
+
+  <section class="inicio">
+    <div class="cabecalho">
+        <div class="texto">
+          <p>Automatização dos relatórios de reunião</p>
+        </div>
+        <img src="imagem/undraw_at_work_re_qotl (1).svg">
+      </div>
+  </section>
+
+  <nav class="tabela">
+    <table id="customers">
+      <tr>
+        <th>Pauta</th>
+        <th>Data</th>
+        <th>Status</th>
+      </tr>
+      <tr onclick="location.href='relatorio.html'">
+        <td>Inicio do projeto Mutum</td>
+        <td>02/04/2024</td>
+        <td>Iniciada</td>
+      </tr>
+      <tr onclick="location.href='relatorio.html'">
+        <td>Inicio do projeto Mutum</td>
+        <td>02/04/2024</td>
+        <td>Iniciada</td>
+      </tr>
+      <tr onclick="location.href='relatorio.html'">
+        <td>Inicio do projeto Mutum</td>
+        <td>02/04/2024</td>
+        <td>Iniciada</td>
+      </tr>
+      <tr onclick="location.href='relatorio.html'">
+        <td>Inicio do projeto Mutum</td>
+        <td>02/04/2024</td>
+        <td>Iniciada</td>
+      </tr>
+    </table>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>

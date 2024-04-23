@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_relatorio.css"/>
+    <link 
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"/>
+
+    <title>Relatório</title>
+</head> 
+<body>
+    <!--Menu Vertical-->
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="imagem/LOGOMARCA PGE HORIZONTAL CORES.jpg" alt="logo" />
+          </span>
+        </div>
+  
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="text" placeholder="Pesquisar" />
+          </li>
+
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="matrizgut.html">
+                <i class="bx bxs-spreadsheet icon"></i>
+                <span class="text nav-text">Matriz GUT</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bxs-file icon"></i>
+                <span class="text nav-text">OKRs - LabPDI</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="aplicativos.html">
+                <i class="bx bx-grid-alt icon"></i>
+                <span class="text nav-text">Aplicativos</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="bottom-content"></div>
+        <li class="">
+          <a href="#">
+            <i class="bx bx-log-out icon"></i>
+            <span class="text nav-text">Logout</span>
+          </a>
+        </li>
+  
+        <li class="mode">
+          <div class="moon-sun">
+            <i class="bx bx-moon icon moon"></i>
+            <i class="bx bx-sun icon sun"></i>
+          </div>
+          <span class="mode-text text">Dark Mode</span>
+          <div class="toggle-switch">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </div>
+    </nav>
+
+      <!-- relatorio -->
+    <div class="grid-container"> 
+      <div class="item1">
+        <div class="container"> 
+          <form action="/action_page.php" method="get" target="_blank">
+            <h3>Formulário de reunião</h3><br><br>
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data"><br>
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora"><br>
+            <label for="local">Local:</label>
+            <input type="text" id="local" name="local"><br><br><br>
+            <label class="espacoPe" for="pessoas">Participantes:</label><br>
+            <textarea name="textarea" rows="5" cols="30" placeholder="Quem participou?"></textarea><br><br>
+            <label class="espacoP" for="pauta">Pauta:</label><br>
+            <textarea name="textarea" rows="5" cols="30" placeholder="Qual a pauta da reunião"></textarea><br><br>
+            <label class="espacoE" for="encaminhamento">Encaminhamentos:</label><br>
+            <textarea name="textarea" rows="5" cols="30" placeholder="Digite os encaminhamentos"></textarea><br><br>
+            <label class="espacoPe" for="registro">Registrado por:</label><br>
+            <input class="reg" type="text" id="registro" name="registro" rows="5" cols="30" placeholder="Quem registrou?"><br>
+            <button class="btn" id="automatizar">Automatizar</button>
+          </form>
+        </div>
+      </div>
+      <div class="item2">
+        <div id="linha-vertical"></div> 
+      </div>
+      <div class="item3">
+      </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
