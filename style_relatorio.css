@@ -333,25 +333,25 @@ body.dark .switch::before {
   font-size: 20px;
 }
 
-.item1 { 
+.rlitem1 { 
   left: 400px;
 }
 
-.item2{
+.rlitem2{
   right: 50px;
 }
 
-.item3 { 
+.rlitem3 { 
   margin-top: 12%;
 }
 
 /* formulario */
-.container {
+.container4 {
   border-radius: 25px;
   box-shadow: 0 4px 20px 0 rgba(53, 96, 236, 0.39), 0 6px 20px 0 rgba(179, 178, 178, 0.3);
 }
 
-.item1 .container{
+.rlitem1 .container4{
   width: 35vw;
   height: 115vh;
   margin-top: 4%;
@@ -462,7 +462,7 @@ textarea {
   
 }
 
-.cabecalho .texto p{
+.cabecalho .texto2 p{
   font-size: 20px;
   font-weight: 400;
   color: #f6f7f8ec;
@@ -472,7 +472,3 @@ textarea {
   padding-right: 350px;
   float: right;
 }
-
-
-
-
