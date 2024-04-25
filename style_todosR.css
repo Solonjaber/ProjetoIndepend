@@ -284,6 +284,7 @@ body.dark .switch::before {
   left: 88px;
   width: calc(100% - 88px);
 }
+
 /*fim do menu*/
 
 /* cabecalho apps */
@@ -302,7 +303,7 @@ body.dark .switch::before {
   width: 14%;
 }
   
-.cabecalho .texto p{
+.cabecalho .texto4 p{
   font-size: 27px;
   font-weight: 500;
   color: #fff;
@@ -312,7 +313,6 @@ body.dark .switch::before {
   padding-right: 450px;
   float: right;
 }
-
 
 .inicio{
   display: flex;
@@ -357,4 +357,3 @@ table th {
 table.table tr{
   cursor: pointer;
 }
-  
