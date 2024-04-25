@@ -317,7 +317,7 @@ body.dark .switch::before {
 /*fim do menu*/
 
 /* cabecalho */
-.conteudo {
+.conteudo2 {
   position: relative;
   border-radius: 10px;
   box-shadow: 0 4px 20px 0 rgba(53, 96, 236, 0.39), 0 6px 20px 0 rgba(179, 178, 178, 0.3);
@@ -371,13 +371,13 @@ font-size: 30px;
   background: #173ebe77;
 }
 
-.definicao{
+.definicao2{
   margin: 60px;
   line-height: 25px;
 }
 
 /* instrucoes */
-.container{
+.container2{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -444,7 +444,7 @@ font-size: 30px;
   background: #fdfeffec;
 }
 
-.texto{
+.texto3{
   top: 10%;
   margin: 60px;
   line-height: 30px;
@@ -477,7 +477,6 @@ font-size: 30px;
 
 tr:nth-child(even){background-color: #ffffff}
 
-
 .formularios{
   display: flex;
   flex-direction: row;
@@ -496,14 +495,3 @@ tr:nth-child(even){background-color: #ffffff}
   height: 30px;
   border: 1px solid #0f32a5;
 }
-
-
-
-
-
-
-
-
-
-
-
