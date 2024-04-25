@@ -23,42 +23,37 @@ modeSwitch.addEventListener("click", () => {
   }
 });
 
-// Função para navegar para a página 
+// Função para navegar para a página
 function navigateToPage(href) {
-
   if (!href) {
     return;
   }
 
-  const pageId = href.split('#')[1];
+  const pageId = href.split("#")[1];
 
-  document.querySelectorAll('.page-content').forEach(page => {
-    page.style.display = 'none';
+  document.querySelectorAll(".page-content").forEach((page) => {
+    page.style.display = "none";
   });
 
   const page = document.getElementById(pageId);
-  if (page) { 
-    page.style.display = 'block';
+  if (page) {
+    page.style.display = "block";
   }
-
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-
-  document.querySelectorAll('.nav-link').forEach(function(link) {
-
-    link.addEventListener('click', e => {
-      
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".nav-link, .notificaapp").forEach(function (link) {
+    link.addEventListener("click", (e) => {
       e.preventDefault();
       // console.log(link);
 
-      const page2 = link.getAttribute('href');
+      const page2 = link.getAttribute("href");
 
       navigateToPage(page2);
       // console.log(link.getAttribute('href'));
-
     });
-
   });
-
 });
+
+// var dashboard = document.getElementById('dashboard');
+//   dashboard.innerHTML = `<iframe src="http://localhost:8050" width="1700" height="850" style="padding: 100px 10px 10px 30px"></iframe>`;
