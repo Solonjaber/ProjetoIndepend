@@ -318,7 +318,7 @@ body.dark .switch::before {
 
 /* Cabecalha */
 
-.container {
+.container3 {
   position: relative;
   width: 50vw;
   height: 70vh;
@@ -425,7 +425,6 @@ label{
   width: 100%;
 }
 
-
 .btn {
   width: 150px;
   height: 50px;
@@ -442,7 +441,7 @@ label{
   background: #173ebe77;
 }
 
-.container::before {
+.container3::before {
   content: "";
   position: absolute;
   top: 0;
@@ -517,28 +516,28 @@ label{
 
 /*animação*/
 
-.container.sign-up-mode::before {
+.container3.sign-up-mode::before {
   transform: translateX(0);
 }
 
-.container.sign-up-mode .right-panel .image, 
-.container.sign-up-mode .right-panel .content {
+.container3.sign-up-mode .right-panel .image, 
+.container3.sign-up-mode .right-panel .content {
   transform: translateX(200%);
 }
 
-.container.sign-up-mode .left-panel .image, 
-.container.sign-up-mode .left-panel .content {
+.container3.sign-up-mode .left-panel .image, 
+.container3.sign-up-mode .left-panel .content {
   transform: translateX(0);
 }
 
-.container.sign-up-mode form.sign-in-form {
+.container3.sign-up-mode form.sign-in-form {
   opacity: 0;
 }
 
-.container.sign-up-mode form.sign-up-form {
+.container3.sign-up-mode form.sign-up-form {
   opacity: 1;
 }
 
-.container.container.sign-up-mode .left-panel {
+.container3.container3.sign-up-mode .left-panel {
   pointer-events: all;
 }
