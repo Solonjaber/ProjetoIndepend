@@ -316,7 +316,6 @@ body.dark .switch::before {
 
 /*fim do menu*/
 
-
 /* Estilo app */
 .container {
   position: relative;
@@ -342,7 +341,7 @@ body.dark .switch::before {
   left: 240px;
 }
 
-.item1{
+.itemapp1{
   width: 35vw;
   height: 40vh;
   margin-top: 2%;
@@ -352,13 +351,13 @@ body.dark .switch::before {
   justify-content: center;
 }
 
-.item2 img{
+.itemapp2 img{
   width: 35vw;
   height: 34vh;
   margin-top: 8%;
 }
 
-.item2 h1{
+.itemapp2 h1{
 font-size: 30px;
 }
 
@@ -428,12 +427,3 @@ font-size: 30px;
   margin: 15px;
   text-align: center;
 }
-
-.secao{
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  margin: 30px;
-}
-
-
