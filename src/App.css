@@ -1,5 +1,5 @@
 :root {
-  --yellow: linear-gradient(180deg, #F8D49A -146.42%, #34a1a1 -46.42%);
+  --yellow: linear-gradient(180deg, #f8d49a -146.42%, #34a1a1 -46.42%);
   --orange: #1fedfc;
   --black: #242d49;
   --gray: #3f4e7a;
@@ -16,15 +16,15 @@
   color: var(--black);
   background: linear-gradient(
     106.37deg,
-    #3121c0 29.63%,
-    #3d19c0 51.55%,
-    #04206e 90.85%
+    #2c5676 29.63%,
+    #2a506d 51.55%,
+    #294964 90.85%
   );
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .AppGlass {
@@ -39,14 +39,14 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .AppGlass{
+  .AppGlass {
     grid-template-columns: 10% 50% auto;
     overflow-y: scroll;
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .AppGlass{
+  .AppGlass {
     grid-template-columns: 1fr;
-  } 
+  }
 }

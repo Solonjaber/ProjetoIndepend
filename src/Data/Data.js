@@ -7,6 +7,7 @@ import {
   UilApps,
   UilSignOutAlt,
   UilChatBubbleUser,
+  UilKeyholeSquare,
 } from "@iconscout/react-unicons";
 
 // Analytics Cards imports
@@ -23,26 +24,32 @@ export const SidebarData = [
   {
     icon: UilChartBar,
     heading: "Dashboard",
+    path: "/",
   },
   {
     icon: UilClipboardAlt,
     heading: "OKRs",
+    path: "/okrs",
   },
   {
     icon: UilTablet,
     heading: "Matriz GUT",
+    path: "/matriz-gut",
   },
   {
     icon: UilChatBubbleUser,
-    heading: 'Chat interno'
+    heading: "Chat interno",
+    path: "/chat-interno",
   },
   {
     icon: UilApps,
-    heading: 'Aplicativos'
+    heading: "Aplicativos",
+    path: "/aplicativos",
   },
   {
     icon: UilChat,
-    heading: 'Chat GPT'
+    heading: "Cige-GPT",
+    path: "/chat-gpt",
   },
 ];
 
@@ -51,8 +58,8 @@ export const cardsData = [
   {
     title: "Objetivos",
     color: {
-      backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
-      boxShadow: "0px 10px 20px 0px #e0c6f5",
+      backGround: "linear-gradient(180deg, #51A8B1 0%, #51A8B1 100%)",
+      boxShadow: "0px 10px 20px 0px #7CBEC4",
     },
     barValue: 70,
     value: "25",
@@ -67,12 +74,12 @@ export const cardsData = [
   {
     title: "Key Results",
     color: {
-      backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
-      boxShadow: "0px 10px 20px 0px #FDC0C7",
+      backGround: "linear-gradient(180deg, #294964 0%, #294964 100%)",
+      boxShadow: "0px 10px 20px 0px #366586",
     },
     barValue: 80,
     value: "79",
-    png: UilMoneyWithdrawal,
+    png: UilKeyholeSquare,
     series: [
       {
         name: "Key Results",
@@ -84,8 +91,8 @@ export const cardsData = [
     title: "Concluídos",
     color: {
       backGround:
-        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
-      boxShadow: "0px 10px 20px 0px #F9D59B",
+        "linear-gradient(rgb(245, 134, 52) -146.42%, rgb(245, 134, 52) -46.42%)",
+      boxShadow: "0px 10px 20px 0px #FAB370",
     },
     barValue: 60,
     value: "50",

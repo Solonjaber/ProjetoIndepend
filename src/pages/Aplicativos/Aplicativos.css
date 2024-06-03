@@ -1,0 +1,102 @@
+.container {
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 0 4px 20px 0 rgba(53, 96, 236, 0.39),
+    0 6px 20px 0 rgba(179, 178, 178, 0.3);
+  overflow: hidden;
+}
+
+.intro {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px 0 rgba(53, 96, 236, 0.39),
+    0 6px 20px 0 rgba(179, 178, 178, 0.3);
+  overflow: hidden;
+  width: 75vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  background: #0f32a5;
+  left: 240px;
+}
+
+.itemapp1 {
+  width: 35vw;
+  height: 40vh;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.itemapp2 img {
+  width: 35vw;
+  height: 34vh;
+  margin-top: 8%;
+}
+
+.itemapp2 h1 {
+  font-size: 30px;
+}
+
+.definicao {
+  margin: 60px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.aplication .container {
+  width: 12vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  margin-top: 4%;
+  background: #fdfeffec;
+  left: 50px;
+}
+
+.aplication .icon {
+  min-width: 60px;
+  font-size: 60px;
+  margin-top: 20%;
+  color: #0f32a5ec;
+}
+
+.aplication .conteudo {
+  height: calc(100% - 50px);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0c0c0c;
+  text-align: center;
+}
+
+.container p {
+  font-size: 15px;
+  font-weight: 410;
+  color: #0c0c0c;
+  padding-top: 10px;
+  margin: 15px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 460px;
+  margin: 10px 5;
+  text-align: left;
+  font-size: 13px;
+  color: #6b6b6b;
+}
